@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
+PackageIdentifier: EvarinthoSec.mtop
+PackageVersion: "0.1.0-alpha.1"
+Platform:
+- Windows.Desktop
+Installers:
+- Architecture: x64
+  InstallerType: zip
+  InstallerUrl: https://github.com/EvarinthoSec/mtop/releases/download/v0.1.0-alpha.1/mtop-windows-x86_64-0.1.0-alpha.1.zip
+  InstallerSha256: e428626e88c9c404426fc1a4b7d24b2af305b4a50636d968b2516bf0dcba3050
+  NestedInstallerType: portable
+  NestedInstallerFiles:
+  - RelativeFilePath: mtop.exe
+    PortableCommandAlias: mtop
+ManifestType: installer
+ManifestVersion: 1.12.0
