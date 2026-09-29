@@ -7,7 +7,7 @@ Installers:
 - Architecture: x64
   InstallerType: zip
   InstallerUrl: https://github.com/EvarinthoSec/mtop/releases/download/v0.1.0-alpha.1/mtop-windows-x86_64-0.1.0-alpha.1.zip
-  InstallerSha256: e428626e88c9c404426fc1a4b7d24b2af305b4a50636d968b2516bf0dcba3050
+  InstallerSha256: 318d37d7df16b05fc72a07aebff88e8435fd8d6e6cda08b56c6a7dac356aa3bc
   NestedInstallerType: portable
   NestedInstallerFiles:
   - RelativeFilePath: mtop.exe
